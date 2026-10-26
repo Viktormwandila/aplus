@@ -1,0 +1,14 @@
+{
+  "name": "aplus-physics",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "deploy": "wrangler deploy",
+    "check": "node scripts/check.mjs",
+    "cf:dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
