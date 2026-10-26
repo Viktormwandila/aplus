@@ -1,15 +1,25 @@
-# Form 1 Physics: Lesson 1 — Laboratory Safety
+# Form 1 Physics: Laboratory Safety
 
-Original proposed 40-minute opening lesson aligned to CDC Physics Syllabus 2024, 1.1.1.1, printed page 2. See curriculum-research.md for official sources, editorial decisions and evidence limits.
+Aplus lesson pack for Zambia Form 1, aligned to CDC Physics syllabus (2024), competence 1.1.1.1. Original teaching adaptation; teacher review pending.
 
-## Content
-Six short sections: key words and learning goals; bullet-point safety rules; hazard picture and feedback; SVG PPE illustrations; emergency-awareness and simulated role play; five original questions plus teacher-observed actions. The entire introduction unit is not compressed into this lesson. Waste management, apparatus and other subtopics follow later.
+## Design and content
+
+Reading-first layout with lesson outline, restrained green accents, large editorial headings and original SVG diagrams. Oak National Academy informs the lesson structure; Brilliant informs visual exploration and immediate feedback. No copied branding, proprietary assets or lesson text.
+
+Seven sections: starter and vocabulary; safety notes and reasons; interactive hazards; PPE matching and supervised practice; emergency/first-aid practical stations; live safety-poster builder; five original MCQs and six-mark written practice with model answers.
+
+Suggested teaching sequence: three 40-minute periods, adjustable by the teacher. This is an editorial plan for the safety subtopic, not an official fixed allocation. Waste management and other introductory subtopics follow separately. First-aid performance requires a trained adult and school-approved instruction.
 
 ## Use
-Open index.html in a modern browser or serve it statically. All artwork and code are embedded for offline use after download. No installation or Java needed. Browser storage saves position and practice answers when available. Print notes prints all six sections.
+
+Open index.html in a modern browser or serve statically. Images, SVG, CSS and JavaScript are embedded. Works offline after download. Review ticks, answers and poster wording save locally when browser storage is available. Print study notes or print the individual poster. Source links require internet.
 
 ## Verification
-JavaScript syntax, unique IDs and embedded images checked. Desktop browser verified navigation, hazard feedback, 5/5 scoring and retry. Teacher content review and physical mobile/iPad testing remain. Online answers alone cannot certify practical competence.
+
+JavaScript syntax, unique IDs and anchor targets checked. Desktop browser verified hazard feedback, PPE matching, poster editing, 5/5 scoring, retry and review progress. Physical mobile/iPad testing, print output inspection and Zambian teacher review remain.
+
+The full official module PDF timed out/returned 503; the available official indexed excerpts and full syllabus were used. See curriculum-research.md for evidence limits.
 
 ## Hosting
-The sample remains in samples/physics-topic-1/ on branch sample/physics-topic-1. GitHub Pages and custom-domain settings have not been changed. Integrate into the repository's chosen hosting workflow when ready.
+
+Sample branch: sample/physics-topic-1. Draft PR #1. GitHub Pages/domain settings have not been changed.
