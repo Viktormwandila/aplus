@@ -3,7 +3,8 @@
 A working static education site prepared for Cloudflare Workers Static Assets. No database, build service or API keys are needed by the learning app.
 
 ## Pages
-- `/`: course home
+- `/`: subject chooser (currently Physics)
+- `/physics`: Physics subject home
 - `/lesson`: seven-part Form 1 laboratory safety lesson and teacher guide
 - `/practice`: 46 original interactive questions across six syllabus topic pages, SVG diagrams, worked answers, MathML and pendulum lab
 - `/progress`: device-local progress summary
