@@ -27,3 +27,12 @@ if(ids.length!==qs.length||new Set(ids).size!==qs.length)throw Error('Questions 
 if(new Set(qs.map(q=>q.diagram)).size!==qs.length)throw Error('Duplicate question diagrams');
 for(const g of groups){if(g.ids.length<2)throw Error('Each topic needs multiple questions');for(const i of g.ids){const q=qs[i];if(q.id!==i||q.topicCode!==g.code||q.form!==g.form||q.topic!==g.name||!q.subCode.startsWith(g.code+'.')||!q.competence.startsWith(q.subCode+'.'))throw Error('Invalid syllabus mapping: '+i);if(!q.diagram.includes('<title>')||!q.caption||!q.hint||!q.solution||!Number.isFinite(q.answer))throw Error('Incomplete question: '+i)}}
 console.log(`Content passed: ${qs.length} distinct diagrams, ${groups.length} syllabus topics, complete question metadata.`);
+for(const q of qs){
+ if(q.options){if(q.options.length<2||!Number.isInteger(q.answer)||q.answer<0||q.answer>=q.options.length)throw Error('Invalid options: '+q.id)}
+ else{const tolerance=q.tolerance??.000001;if(!q.unit||!Number.isFinite(tolerance)||tolerance<=0||(q.answer!==0&&tolerance>Math.abs(q.answer)/100))throw Error('Invalid numeric answer/unit/tolerance: '+q.id)}
+}
+const progressSource=fs.readFileSync(new URL('progress.js',dir),'utf8');
+const progressTitles=JSON.parse(progressSource.match(/const titles=(\[[\s\S]*?\]);/)[1]);
+if(progressTitles.length!==qs.length||progressTitles.some((t,i)=>t!==qs[i].title))throw Error('Progress dashboard differs from question bank');
+if(!practice.includes('max="'+qs.length+'"'))throw Error('Practice progress maximum is outdated');
+console.log('Answer bounds, numeric tolerances and dashboard totals passed.');
