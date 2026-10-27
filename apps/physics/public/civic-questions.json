@@ -1,0 +1,226 @@
+[
+  {
+    "id": "civ-1.1-01",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "What is Civic Education mainly about?",
+    "options": [
+      "Learning how to live responsibly and take part in society",
+      "Memorising only the names of leaders",
+      "Training only people who want to become politicians"
+    ],
+    "answer": 0,
+    "explanation": "It builds knowledge, skills and values for responsible participation. It is useful in everyday life, not only in political careers."
+  },
+  {
+    "id": "civ-1.1-02",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "Chanda learns what a student council does. Which part of Civic Education is this?",
+    "options": [
+      "Civic values",
+      "Civic knowledge",
+      "Civic participation"
+    ],
+    "answer": 1,
+    "explanation": "Understanding a council’s role is knowledge. Taking part in its work would be participation."
+  },
+  {
+    "id": "civ-1.1-03",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "Mwila listens carefully, compares two proposals and explains her reasons. Which civic skill is she using?",
+    "options": [
+      "Ignoring other views",
+      "Following the loudest person",
+      "Critical thinking and communication"
+    ],
+    "answer": 2,
+    "explanation": "She examines ideas and communicates reasons instead of simply accepting a claim."
+  },
+  {
+    "id": "civ-1.1-04",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "A class treasurer records every payment truthfully. Which value is most clearly shown?",
+    "options": [
+      "Honesty",
+      "Secrecy about shared money",
+      "Favouritism"
+    ],
+    "answer": 0,
+    "explanation": "An accurate record shows honesty and helps the class account for shared money."
+  },
+  {
+    "id": "civ-1.1-05",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "A lesson explores how people choose their representatives. Which area is its main focus?",
+    "options": [
+      "Environmental",
+      "Political",
+      "Cultural"
+    ],
+    "answer": 1,
+    "explanation": "Choosing representatives concerns leadership and public decision-making. Civic themes can overlap, but this example mainly concerns politics."
+  },
+  {
+    "id": "civ-1.1-06",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "A class discusses how to use limited club funds. Which area is its main focus?",
+    "options": [
+      "Cultural",
+      "Environmental",
+      "Economic"
+    ],
+    "answer": 2,
+    "explanation": "Using money and limited resources is an economic issue. The fairness of the decision can also involve other civic themes."
+  },
+  {
+    "id": "civ-1.1-07",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "Learners investigate plastic waste near their school. Which area is the clearest match?",
+    "options": [
+      "Environmental",
+      "Political",
+      "Cultural"
+    ],
+    "answer": 0,
+    "explanation": "Waste affects our surroundings. The group may also need to discuss costs and decisions, but its main issue is environmental."
+  },
+  {
+    "id": "civ-1.1-08",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "Pupils learn respectfully about the languages and ceremonies of different communities. Which area is this?",
+    "options": [
+      "Economic",
+      "Cultural",
+      "Environmental"
+    ],
+    "answer": 1,
+    "explanation": "Languages, ceremonies and traditions are part of culture. Respect includes avoiding stereotypes."
+  },
+  {
+    "id": "civ-1.1-09",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "A class looks for ways to include a new pupil in group work. Which area is most directly involved?",
+    "options": [
+      "Environmental",
+      "Economic",
+      "Social"
+    ],
+    "answer": 2,
+    "explanation": "The main concern is how people relate to one another and live together."
+  },
+  {
+    "id": "civ-1.1-10",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "Why is Civic Education useful?",
+    "options": [
+      "It helps people make informed choices and contribute to community wellbeing",
+      "It makes every person agree on every issue",
+      "It removes the need to question public decisions"
+    ],
+    "answer": 0,
+    "explanation": "An informed person can think carefully, understand responsibilities and participate constructively. Agreement on every issue is not required."
+  },
+  {
+    "id": "civ-1.1-11",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "Which statement about rights is correct?",
+    "options": [
+      "Only class leaders have rights",
+      "Children still have rights when they make mistakes",
+      "A child must earn every right by obeying perfectly"
+    ],
+    "answer": 1,
+    "explanation": "Rights are not rewards for perfect behaviour. Mistakes can be addressed while respecting the child’s dignity and rights."
+  },
+  {
+    "id": "civ-1.1-12",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.1",
+    "prompt": "Someone disagrees with your proposal. Which response shows tolerance?",
+    "options": [
+      "Insult the person",
+      "Prevent them from speaking",
+      "Listen and discuss your different reasons respectfully"
+    ],
+    "answer": 2,
+    "explanation": "Tolerance allows different views to be heard. You can disagree and still treat someone with dignity."
+  },
+  {
+    "id": "civ-1.1-13",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.2",
+    "prompt": "Which is the clearest example of civic participation at school?",
+    "options": [
+      "Helping the student council discuss an accessible reading corner",
+      "Knowing a council exists but never joining an activity",
+      "Memorising a definition without using it"
+    ],
+    "answer": 0,
+    "explanation": "Participation involves action. Helping a council discuss a school improvement contributes to the group’s wellbeing."
+  },
+  {
+    "id": "civ-1.1-14",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.2",
+    "prompt": "Your class plans a clean-up. What should happen before work begins?",
+    "options": [
+      "Pupils collect unknown chemicals without help",
+      "Get permission, identify hazards and agree safe roles with an adult",
+      "Begin immediately without checking the area"
+    ],
+    "answer": 1,
+    "explanation": "A responsible plan includes permission, supervision and suitable tasks. Hazardous waste must be handled by responsible adults."
+  },
+  {
+    "id": "civ-1.1-15",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.2",
+    "prompt": "A mock class election is being organised. Which action best supports fair participation?",
+    "options": [
+      "Only the organiser’s friends may speak",
+      "The result is chosen before voting",
+      "Give candidates the same chance to explain their ideas and follow agreed rules"
+    ],
+    "answer": 2,
+    "explanation": "Equal opportunities and clear rules help pupils participate fairly. A mock school election is a learning activity, not a national election."
+  },
+  {
+    "id": "civ-1.1-16",
+    "topicCode": "1.1",
+    "subtopicCode": "1.1.1",
+    "competence": "1.1.1.2",
+    "prompt": "After helping organise a book-sharing shelf, what is the best next step?",
+    "options": [
+      "Check whether books are easier to find and discuss improvements",
+      "Assume it worked without asking anyone",
+      "Claim the work was completed before setting up the shelf"
+    ],
+    "answer": 0,
+    "explanation": "Reflection checks what actually changed. A written plan alone does not show that a civic activity has been carried out."
+  }
+]

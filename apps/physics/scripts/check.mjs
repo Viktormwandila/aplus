@@ -36,3 +36,7 @@ const progressTitles=JSON.parse(progressSource.match(/const titles=(\[[\s\S]*?\]
 if(progressTitles.length!==qs.length||progressTitles.some((t,i)=>t!==qs[i].title))throw Error('Progress dashboard differs from question bank');
 if(!practice.includes('max="'+qs.length+'"'))throw Error('Practice progress maximum is outdated');
 console.log('Answer bounds, numeric tolerances and dashboard totals passed.');
+const civic=JSON.parse(fs.readFileSync(new URL('civic-questions.json',dir),'utf8'));
+if(civic.length!==16||new Set(civic.map(q=>q.id)).size!==16)throw Error('Civic question count or duplicate IDs');
+for(const q of civic){if(q.topicCode!=='1.1'||q.subtopicCode!=='1.1.1'||!['1.1.1.1','1.1.1.2'].includes(q.competence)||!q.prompt||!q.explanation||q.options.length!==3||!Number.isInteger(q.answer)||q.answer<0||q.answer>=q.options.length)throw Error('Invalid Civic question: '+q.id)}
+console.log('Civic passed: 16 unique questions, valid answers, explanations and topic/competence mapping.');
