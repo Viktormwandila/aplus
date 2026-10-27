@@ -1,5 +1,5 @@
-const CACHE='aplus-physics-v4';
-const CORE=['/','/site.css','/site.js','/icon.svg','/manifest.webmanifest','/practice','/lesson','/progress'];
+const CACHE='aplus-physics-v5';
+const CORE=['/','/physics','/physics-thumbnail.svg','/site.css','/site.js','/icon.svg','/manifest.webmanifest','/practice','/lesson','/progress'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)));self.skipWaiting()});
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('aplus-physics-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{const r=event.request,u=new URL(r.url);if(r.method!=='GET'||u.origin!==self.location.origin)return;event.respondWith(fetch(r).then(response=>{if(response.ok){const copy=response.clone();event.waitUntil(caches.open(CACHE).then(cache=>cache.put(r,copy)))}return response}).catch(async()=>{const cached=await caches.match(r);if(cached)return cached;return new Response('This page is not available offline yet. Reconnect and open it once.',{status:503,headers:{'Content-Type':'text/plain; charset=utf-8'}})}))});
