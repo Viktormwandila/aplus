@@ -27,7 +27,7 @@ Wrangler prints the deployed workers.dev URL. Choose a unique Worker name in wra
 Progress is stored in browser localStorage on the deployed origin; it does not sync between devices or transfer from a downloaded HTML file. A service worker caches the course pages after initial online loading. It requires HTTPS or localhost. New deployments should increment the service-worker cache version when asset structure changes.
 
 ## Content limits
-The safety lesson is an original teaching adaptation with source and verification limits stated on the page. Practice contains eight original questions informed by topics in a 2017 revision booklet; it is not a full transcription of its 152 numbered questions. Practical safety/first-aid work requires teacher supervision. No private Drive material or credentials are included.
+The safety lesson is an original teaching adaptation with source and verification limits stated on the page. Practice contains 28 original questions in six topic pages mapped to the CDC 2024 Form 1–4 syllabus. Each question has a bespoke labelled SVG, subtopic and competence reference. It is not a full transcription of the 2017 revision booklet or a complete syllabus course. Practical safety/first-aid work requires teacher supervision. No private Drive material or credentials are included.
 
 ## Verification
 Run npm run check for syntax, IDs, internal links, manifest and deployment-config checks. Browser tests cover answer checks, hints, worked answers and simulation controls. Mobile-device testing and teacher review remain.
