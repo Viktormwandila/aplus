@@ -5,7 +5,7 @@ A working static education site prepared for Cloudflare Workers Static Assets. N
 ## Pages
 - `/`: course home
 - `/lesson`: seven-part Form 1 laboratory safety lesson and teacher guide
-- `/practice`: eight original interactive questions, SVG diagrams, worked answers, MathML and pendulum lab
+- `/practice`: 46 original interactive questions across six syllabus topic pages, SVG diagrams, worked answers, MathML and pendulum lab
 - `/progress`: device-local progress summary
 
 Run `npm run dev` for a dependency-free local preview.
@@ -27,7 +27,7 @@ Wrangler prints the deployed workers.dev URL. Choose a unique Worker name in wra
 Progress is stored in browser localStorage on the deployed origin; it does not sync between devices or transfer from a downloaded HTML file. A service worker caches the course pages after initial online loading. It requires HTTPS or localhost. New deployments should increment the service-worker cache version when asset structure changes.
 
 ## Content limits
-The safety lesson is an original teaching adaptation with source and verification limits stated on the page. Practice contains 28 original questions in six topic pages mapped to the CDC 2024 Form 1–4 syllabus. Each question has a bespoke labelled SVG, subtopic and competence reference. It is not a full transcription of the 2017 revision booklet or a complete syllabus course. Practical safety/first-aid work requires teacher supervision. No private Drive material or credentials are included.
+The safety lesson is an original teaching adaptation with source and verification limits stated on the page. Practice contains 46 original questions in six topic pages mapped to the CDC 2024 Form 1–4 syllabus. Each question has a bespoke labelled SVG, subtopic and competence reference. It is not a full transcription of the 2017 revision booklet or a complete syllabus course. Practical safety/first-aid work requires teacher supervision. No private Drive material or credentials are included.
 
 ## Verification
-Run npm run check for syntax, IDs, internal links, manifest and deployment-config checks. Browser tests cover answer checks, hints, worked answers and simulation controls. Mobile-device testing and teacher review remain.
+Run npm run check for syntax, IDs, internal links, manifest, deployment configuration, syllabus metadata, answer bounds, numeric tolerances and dashboard totals. Browser tests cover answer checks, hints, worked answers and simulation controls. Mobile-device testing and teacher review remain.
